@@ -1,0 +1,171 @@
+/* General Styles Start */
+* {
+    margin: 0px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20px 1fr 20px;
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+/* General Styles End */
+
+
+/* Header Styles Start */
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+#top-left {
+    display: flex;
+}
+
+#top-right {
+    display: flex;
+    align-items: center;
+}
+
+ul li #sign-in {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 6px 8px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+}
+
+#menu {
+    width: 25px;
+   
+}
+
+#menu:hover {
+     opacity: 0.5;
+}
+
+/* Header Styles End */
+
+/* Main Styles Start */
+
+main {
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+#search {
+    width: 550px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(211, 205, 205);
+    outline: none;
+}
+
+#search:hover {
+    box-shadow: 0px 2px 5px rgb(221, 219, 219);
+}
+
+.search-btn {
+    display: inline;
+    justify-content: center;
+}
+
+#google-search-btn {
+    color: rgb(75, 72, 72);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px
+}
+
+#lucky-btn {
+    margin-top: 30px;
+    color: rgb(75, 72, 72);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px
+}
+
+#google-search-btn:hover {
+    box-shadow: 0px 2px 5px rgb(221, 219, 219);
+    border: 1px solid rgb(221, 216, 216);
+}
+
+#lucky-btn:hover {
+    box-shadow: 0px 2px 5px rgb(221, 219, 219);
+    border: 1px solid rgb(221, 216, 216);
+}
+
+#glass {
+    width: 20px;
+    z-index: 2;
+    display: inline;
+    position: relative;
+    top: -115px;
+    left: -255px;
+}
+
+#voice {
+    width: 15px;
+    z-index: 2;
+    display: inline;
+    position: relative;
+    top: -160px;
+    left: 250px;
+}
+
+#search {
+    padding-right: 1px;
+}
+
+/* Main Styles End */
+
+/* Footer Styles Start */
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  justify-content: space-between;
+  background-color:#f2f2f2;
+  margin-left: -15px;
+  
+  
+}
+
+#bottom-left {
+    display: flex;
+}
+
+#bottom-right {
+    display: flex;
+    position: relative;
+}
+
+/* Footer Styles End */
